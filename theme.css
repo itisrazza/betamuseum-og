@@ -1,0 +1,79 @@
+body {
+	/* Font settings */
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: rgb(0,32,96);
+}
+
+#background {
+	background: -webkit-linear-gradient(rgb(31,78,121), rgb(0,32,96)); /* Webkit  */
+    background: -o-linear-gradient(rgb(31,78,121), rgb(0,32,96));      /* Opera   */
+    background: -moz-linear-gradient(rgb(31,78,121), rgb(0,32,96));    /* Mozzila */
+    background: linear-gradient(rgb(31,78,121), rgb(0,32,96));
+}
+
+#wrapper {
+	/* Color and size */
+	width: 1024px;
+	background-color: rgb(2,92,130);
+
+	/* Margin settings */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sidebar {
+	/* Size */
+	height: 726px; /* Height is set to prevent a bug */
+	width: 250px;
+
+	/* Colour and location */
+	color: white;
+	background-color: rgb(2,92,130);
+	float: left;
+
+	/* Margins and padding */
+	margin-top: 0px;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#content {
+	/* Size */
+	height: 720px; /* Height is set to prevent a bug */
+	width: 754px;
+
+	/* Colour and location */
+	background-color: rgb(230,230,230);
+	float: right;
+	
+	/* Scroll bar */
+	overflow-y: scroll;
+	overflow-x: hidden;
+	
+	/* Stuff to make it look nice */
+	padding: 5px;
+}
+
+#header {
+	/* Look nice while picture is loading */
+	background-color: rgb(2,92,130);
+}
+
+/* The anchor tags look nasty on the sidebar using the default styling */
+#sidebar a {
+	/* Text decoration and colour */
+	text-decoration: none;
+	color: rgb(225,225,225);
+}
+
+/* Same can be said about the horizontal line */
+#sidebar hr {
+	border-color: white;
+	border-style: none;
+}
