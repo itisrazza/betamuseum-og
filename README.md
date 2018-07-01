@@ -2,7 +2,7 @@
 ## Experience Windows, Office, macOS and more in this museum
 This was the first "full-size" website I've ever made when I was first learning HTML, CSS and JavaScript.
 
-It was for an assessment Digital Technologies and it received an Excellence for the _NCEA Assessment Standard 91047 (Generic Technology 1.4).
+It was for an assessment Digital Technologies and it received an Excellence for the _NCEA Assessment Standard 91047 (Generic Technology 1.4)_.
 
 ## Problems
 There are *many* problems with this website. At the time, I wasn't really aware of better ways to do things and kinda went with the flow.
