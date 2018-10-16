@@ -1,4 +1,4 @@
-x# Documentation
+# Documentation
 > This is the recreation of the documentation.
 >
 > I've made some corrections and changes to better fit the "GitHub README layout."
